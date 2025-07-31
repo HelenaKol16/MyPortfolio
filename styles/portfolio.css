@@ -42,9 +42,9 @@ body {
 .portfolio-link {
   display: inline-block;
   font-size: 1.1rem;
-  color: #3a5ad7;
+  color: #fff;
   text-decoration: none;
-  background: #eaf0fb;
+  background: #2563eb;
   padding: 12px 20px;
   border-radius: 8px;
   transition: background 0.2s, color 0.2s;
@@ -53,9 +53,10 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
+}
 .portfolio-link:hover {
-  background: #d2e2fa;
-  color: #1a2a5e;
+  background: #1d4ed8;
+  color: #e0e7ef;
 }
 .iframe-modal {
   display: none;
@@ -91,15 +92,22 @@ body {
   top: 12px;
   right: 18px;
   font-size: 2rem;
-  color: #3a5ad7;
-  background: none;
+  color: #fff;
+  background: #2563eb;
   border: none;
   cursor: pointer;
   z-index: 10;
-  transition: color 0.2s;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
 }
 .iframe-close:hover {
-  color: #d73a3a;
+  background: #1d4ed8;
+  color: #e0e7ef;
 }
 .iframe-content {
   flex: 1;
